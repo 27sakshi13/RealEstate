@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+.whole {
+    font-family: 'Poppins', sans-serif;
+
+
+
+}
+
+
+
+
+.container {
+    padding: 1rem;
+
+    background-repeat: no-repeat;
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+
+.text-container {
+    margin-left: 60px;
+    
+
+}
+
+.form-container {
+   
+    margin-right: 2rem;
+    align-items: center;
+    border: 0.1px solid white;
+    box-shadow: 5px 5px 5px 5px rgba(255, 167, 159, 0.4);
+    border-radius: 7px;
+}
+
+.header-container {
+    margin: 0px;
+    padding: 0rem;
+    text-align: start;
+    justify-content: left;
+    text-shadow: 20px;
+}
+
+.header-container h1 {
+    margin-bottom: 0cm;
+    padding-bottom: 0cm;
+    text-shadow: 10cm;
+    text-align: left;
+}
+
+.header-container ul {
+    margin-left: 0cm;
+    justify-content: left;
+
+}
+
+.form {
+    justify-content: center;
+    padding: 1rem;
+
+}
+
+.form input {
+    outline: none;
+}
+
+li {
+    font-weight: 500;
+    color: black;
+}
+
+.center-container {
+    /* display: flex; */
+    /* justify-content: center; */
+    padding: 1rem;
+    /* height: 200px; */
+    text-align: center;
+}
+
+
+.three-container {
+    padding: 5rem;
+  
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+   
+
+
+}
+
+.details {
+   
+    width: 80%;
+    
+    height: auto;
+}
+
+
+
+.upload {
+    width: 80%;
+ 
+    height: auto;
+}
+
+.pricing {
+
+
+    width: 80%;
+
+    height: auto;
+}
+
+.light-text {
+    font-size: 50px;
+    font-weight: 5000;
+}
+
+.center-container h1 {
+    font-weight: 5000;
+
+}
+
+
+.container1 {
+
+    justify-content: left;
+    align-items: start;
+    padding: 1rem;
+}
+
+.container1 h3 {
+    align-items: left;
+    justify-content: left;
+    padding: 0;
+    margin-left: 0cm;
+    margin-bottom: 0cm;
+}
+
+.container1 p {
+
+    font-weight: 100;
+    align-items: start;
+    justify-content: left;
+}
+
+.container1 b {
+    color: rgb(191, 130, 160);
+}
+
+.container1-css {
+    display: flex;
+    justify-content: center;
+
+}
+
+.icons {
+    height: 50px;
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-left: 30px;
+}
+
+input {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    width: 75%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.textarea {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    width: 75%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 4rem;
+}
+
+input:focus {
+    color: red;
+    transform: translateX(10px) translateY(-7px);
+    font-size: 1rem;
+}
+
+
+
+
+.button-3 {
+    appearance: none;
+    background-color: #2ea44f;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.button-3:focus:not(:focus-visible):not(.focus-visible) {
+    box-shadow: none;
+    outline: none;
+}
+
+.button-3:hover {
+    background-color: #2c974b;
+}
+
+.button-3:focus {
+    box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+    outline: none;
+}
+
+.button-3:disabled {
+    background-color: #94d3a2;
+    border-color: rgba(27, 31, 35, .1);
+    color: rgba(255, 255, 255, .8);
+    cursor: default;
+}
+
+.button-3:active {
+    background-color: #298e46;
+    box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+.additional-benifit {
+    padding: 6rem
+}
+
+@media screen and (max-width: 400px) {
+    .header-container {
+        float: none;
+        margin-right: 0;
+        width: auto;
+        border: 0;
+    }
+}
+
+h2{
+    color: black;
+}
+
+p{
+    color: rgba(0, 0, 0, 0.555);
+}
+b{
+    color: black;
+}

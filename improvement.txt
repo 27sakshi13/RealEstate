@@ -1,0 +1,6 @@
+feature
+pop-up -> done
+issue 
+image rendering
+form - description of at least 50 words
+carousel
